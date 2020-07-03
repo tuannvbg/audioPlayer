@@ -21,11 +21,18 @@ $(function () {
     // 设置播放的音频
     // url  地址 必须
     // time 总时间 必须
-    var list = [{
+    var list = [
+	    {
 		name: 'Tobu,Itro - Sunburst',
 		url: '../music/Tobu,Itro - Sunburst.mp3',
 		time: '03:08'
-	}];
+	},
+	     {
+		name: 'Mỹ Nhân - Đinh Đại Vũ',
+		url: 'https://archive.org/download/dinh.-dai.-vu-my.-nhan/Dinh.Dai.Vu-My.Nhan.mp3',
+		time: '04:27'
+	}   
+    ];
 
 	var audioPlayerCtrl = {
 
